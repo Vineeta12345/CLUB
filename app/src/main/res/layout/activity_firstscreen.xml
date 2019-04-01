@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startapp">
+
+    <ImageView
+        android:id="@+id/tempart"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/ourlogo" />
+
+    <ImageView
+        android:id="@+id/tempartright"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_gravity="center"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="2dp" />
+
+    <ImageView
+        android:id="@+id/bootommostimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-256dp"
+
+        />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_below="@+id/tempart"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/appinfo" />
+
+    <Button
+        android:id="@+id/setmeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempart"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="157dp"
+        android:layout_marginRight="117dp"
+        android:background="@drawable/getstarted" />
+
+
+</RelativeLayout>

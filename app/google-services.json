@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "965361943786",
+    "firebase_url": "https://clubs-fa64e.firebaseio.com",
+    "project_id": "clubs-fa64e",
+    "storage_bucket": "clubs-fa64e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965361943786:android:00211832cb48beaf",
+        "android_client_info": {
+          "package_name": "com.example.newz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965361943786-jirttdn0g68fgi2qlc5crcuf6bc56k5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp4EM0jdakcYSMFeXollGZHr085ndnc8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
